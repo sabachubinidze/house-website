@@ -436,6 +436,10 @@ section{
         align-items: center;
         justify-content: center;
     }
+
+    .rentiz{
+        height: 60vh;
+    }
 }
 
 
