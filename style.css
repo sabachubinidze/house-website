@@ -101,6 +101,8 @@ header{
     right: 0;
     z-index: 0;
     transition: .7s;
+    animation-name: animation;
+    animation-duration: .5s;
     display: none;
 }
 
@@ -418,7 +420,10 @@ section{
     transition: .7s;
 }
 
-
+@keyframes animation{
+    from{transform: translateY(-200px);}
+    to{transform: translateY(0)}
+}
 
 
 
